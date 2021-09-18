@@ -1,0 +1,47 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+	DirectoryIndex index.html index.php
+	
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Send Requests To Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+ns916.hostgator.com.br
+ns917.hostgator.com.br
+
+Ser pai é plantar raízes, é ensinar segurando a mão com coragem e determinação.
+
+Ser pai é: sorrir, chorar, sofrer, gargalhar. Ser filho é: agradecer todos os dia a oportunidade de ter um pai como você
+
+Sua presença sempre me passou segurança para correr atrás de todos os meus sonhos
+
+Ensina o teu filho o caminho em que ele deve andar… E, ainda quando for velho, não se desviará dele.
+
+$P$BMKyGLV7tOE/hFo8wOSxwUaBucXi9G0
+
+
+$P$Bo9ehQBHqHBmhfGjPbQFjpSCYhIMCc/
+
+$P$Bo9ehQBHqHBmhfGjPbQFjpSCYhIMCc/
+
+
+Jequitiba-Tradicional-500ml-300x300.jpg
+
+
+
